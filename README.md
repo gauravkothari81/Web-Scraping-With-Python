@@ -18,7 +18,7 @@ We are simply using a function 'getHTML' which was defined in the previous and p
 
 4) Get the whole table as well as links for each city page.
 
-Now, as we already have the HTML information for the full webpage, we can not use it as a whole. We need to find the specific information which we need. In this case, we need the only table containing information about US cities. By visiting the webpage and after careful inspection, we can see that the table information is under tags <table></table>. A table in HTML is comprised of rows denoted by the tags <tr></tr>. Each row has cells which can either be 'headings' defined using <th></th> or 'data' defined using <td></td>. 
+Now, as we already have the HTML information for the full webpage, we can not use it as a whole. We need to find the specific information which we need. In this case, we need the only table containing information about US cities. By visiting the webpage and after careful inspection, we can see that the table information is under tags '<table></table>'. A table in HTML is comprised of rows denoted by the tags <tr></tr>. Each row has cells which can either be 'headings' defined using '<th></th>' or 'data' defined using '<td></td>'. 
 
 In our case, the class of our table is 'wikitable sortable'. First, we store that information in a particular variable and then we find all the rows for that table. We are creating a for loop to find mainly two things. First to take a look at all the links for the individual city pages and to take a look at how the data in whole looks.
 
